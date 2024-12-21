@@ -1,0 +1,57 @@
+/* login.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7f757f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 0.7em;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.alert {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 1em;
+    text-align: center;
+}
